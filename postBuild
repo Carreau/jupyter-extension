@@ -1,5 +1,14 @@
 git clone https://github.com/jupyter/papyri
 cd papyri 
 flit install --symlink
+papyri gen examples/papyri.toml
+papyri ingest ~/.papyri/data/*
+cd - 
+git clone https://github.com/Carreau/papyri-lab
+cd papyri-lab
+pip install .
+cd -
+
+
 
 
