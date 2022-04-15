@@ -5,6 +5,7 @@ python --version
 git clone https://github.com/jupyter/papyri
 cd papyri 
 flit install --symlink
+git clone https://github.com/stsewd/tree-sitter-rst
 papyri build-parser
 papyri gen examples/papyri.toml
 papyri ingest ~/.papyri/data/*
