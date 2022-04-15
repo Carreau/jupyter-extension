@@ -5,6 +5,7 @@ channels:
 - conda-forge
 dependencies:
 - matplotlib-base
+- matplotlib
 - numpy
 - scipy
 - jupyterlab>=3.1
