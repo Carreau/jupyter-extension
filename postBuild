@@ -9,6 +9,7 @@ git clone https://github.com/stsewd/tree-sitter-rst
 papyri build-parser
 papyri gen examples/papyri.toml
 papyri ingest ~/.papyri/data/*
+papyri install numpy scipy
 cd - 
 git clone https://github.com/Carreau/papyri-lab
 cd papyri-lab
