@@ -1,3 +1,5 @@
+conda env list
+conda activate
 git clone https://github.com/jupyter/papyri
 cd papyri 
 flit install --symlink
