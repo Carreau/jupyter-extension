@@ -1,6 +1,7 @@
 conda env list
 which python
 which flit
+python --version
 git clone https://github.com/jupyter/papyri
 cd papyri 
 flit install --symlink
